@@ -1,0 +1,1 @@
+export default ({Search: movies}) => movies ? movies.map(({Title : title}) => title) : []
